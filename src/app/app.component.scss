@@ -1,0 +1,77 @@
+:host  {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+mat-action-list {
+  overflow-y: scroll;
+}
+agm-map {
+  align-self: stretch;
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+  mat-form-field {
+    margin: 0px 5px;
+    &.small {
+      width: 80px;
+    }
+  }
+  mat-checkbox {
+    margin: 0px 20px;
+  }
+}
+p {
+  font-family: Lato;
+}
+textarea {
+  flex-grow: 1;
+  height: 100vh;
+}
+content {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  height: 100%;
+  .pesquisa {
+    width: 33%;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    mat-form-field {
+      margin: 10px;
+    }
+  }
+}
+
+.mapa {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+@media screen and (max-width: 660px) {
+  header button { flex-grow: 1; flex-basis: 100%; margin-top: 20px; }
+  content {
+    flex-direction: column;
+    .pesquisa {
+      width: 100%;
+      flex-grow: 3;
+    }
+    .mapa {
+      flex-basis: 25%;
+    }
+  }
+}

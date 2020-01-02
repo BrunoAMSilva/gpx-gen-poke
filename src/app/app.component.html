@@ -1,0 +1,49 @@
+<header *ngIf="1 === 0" style="display:none">
+	<mat-form-field class="small">
+		<input matInput [(ngModel)]="velocidade" placeholder="Velocidade">
+  </mat-form-field>
+  <mat-form-field class="small">
+    <input matInput [(ngModel)]="raio" placeholder="Raio">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select [required]="true" [(ngModel)]="local" (ngModelChange)="local == 'dortmund' && raio = 0.7 && localChanged()" placeholder="Local">
+      <mat-option value="allPorto">Porto, Gaia e Matosinhos</mat-option>
+      <mat-option value="braga">Braga</mat-option>
+      <mat-option value="porto">Porto</mat-option>
+      <mat-option value="matosinhos">Matosinhos</mat-option>
+      <mat-option value="gaia">Gaia</mat-option>
+      <mat-option value="gondomar">Gondomar</mat-option>
+      <mat-option value="sjm">São João da Madeira</mat-option>
+      <mat-option value="dortmund">Dortmund (30 Jun)</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-checkbox [(ngModel)]="gymsOnly">Apenas Ginásios</mat-checkbox>
+<button mat-button color="primary" mat-raised-button (click)="criaGPX()">Criar GPX</button>
+
+
+</header>
+<content>
+  <div class="pesquisa">
+<mat-form-field>
+  <input matInput (keyup)="procurar($event.target.value)" placeholder="Procurar Ginásio">
+</mat-form-field>
+<mat-action-list>
+  <button mat-list-item *ngFor="let g of gyms" (click)="copiarCoordsLista(g)">
+    <h3 matLine [style.color]="g.isEx ? '#79b700' : 'inherit'">{{g.gym_name}} {{ g.isEx ? 'Ex Raid' : ''}}</h3>
+    <span style="color:#999" matLine>{{'<wpt lat=\"'}}{{g.longitude}}{{'\" lon=\"'}}{{g.latitude}}{{'\">'}}</span>
+  </button>
+</mat-action-list>
+</div>
+<div class="mapa" #content>
+  <agm-map [latitude]="centerPoint.lat" [longitude]="centerPoint.lon" [zoom]="13" 
+  (mapRightClick)="setCenter($event)" [style.height.px]="content.clientHeight">
+    <agm-polyline>
+      <agm-polyline-point *ngFor="let route of currentRoute?.route; let i = index" [latitude]="route.lat" [longitude]="route.lon"></agm-polyline-point>
+    </agm-polyline>
+    <agm-marker *ngFor="let route of currentRoute?.route; let i = index" [latitude]="route.lat" [longitude]="route.lon" [label]="i.toString()"></agm-marker>
+    <agm-marker *ngIf="center" [latitude]="center.lat" [longitude]="center.lon" label="Centro"></agm-marker>
+    <agm-marker *ngIf="ginasioAtual" [longitude]="ginasioAtual.latitude" [latitude]="ginasioAtual.longitude"><agm-info-window>{{ginasioAtual.gym_name}}</agm-info-window></agm-marker>
+  </agm-map>
+</div>
+</content>
+  <textarea #txt [value]="text" rows="40" style="opacity: 0; position:fixed;top:-1000px;left:-1000px" tabindex="-1"></textarea>
