@@ -393,7 +393,7 @@ export const data = {
     {
       gym_id: '4294a544dc564c079910e7d65313feb7.16',
       gym_name: 'Homenagem a Rosália de Castro',
-      longitude: 41.152365,
+      longitude: 41.151965,
       latitude: -8.626668,
       isEx: true
     },
