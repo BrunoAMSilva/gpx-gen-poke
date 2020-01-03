@@ -842,7 +842,7 @@ export const data = {
       gym_id: '69440aeaada747eda071df19f934e7f1.16',
       gym_name: 'Ponte da Arrábida',
       longitude: 41.148621,
-      latitude: -8.64098,
+      latitude: -8.64078,
       isEx: true
     },
     {
