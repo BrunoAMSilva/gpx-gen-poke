@@ -975,7 +975,7 @@ export const data = {
       gym_id: 'a6b7b96e0d4242cebeb64f68cd509d49.16',
       gym_name: 'Retorcido',
       longitude: 41.15589,
-      latitude: -8.644084
+      latitude: -8.644284
     },
     {
       gym_id: '33593e2b743c4b7b8670288408337f8c.16',
