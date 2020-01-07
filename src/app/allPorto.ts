@@ -3,8 +3,8 @@ export const data = {
     {
       gym_id: 'b2654037f3ff4e52b15fc5533b44f954.12',
       gym_name: 'Monumento a Almeida Garrett',
-      longitude: 41.149617,
-      latitude: -8.610742
+      longitude: 41.149817,
+      latitude: -8.611142
     },
     {
       gym_id: 'GYM_PORTO_FONTE_FAUNA_FLORA',
@@ -77,8 +77,8 @@ export const data = {
     {
       gym_id: '19ddcf438eaa4be3b4f5720bf12ac023.16',
       gym_name: 'Câmara Municipal do Porto',
-      longitude: 41.149877,
-      latitude: -8.610798
+      longitude: 41.149777,
+      latitude: -8.610568
     },
     {
       gym_id: 'd1c0ce8842a14753baeaa5e195073afb.11',
@@ -967,7 +967,7 @@ export const data = {
     },
     {
       gym_id: '278f69693fa14fd0abef42554f9514fa.16',
-      gym_name: 'Igreja Nossa Senhora Da Conceição ',
+      gym_name: 'Igreja Nossa Senhora Da Conceição',
       longitude: 41.12844,
       latitude: -8.589964
     },
