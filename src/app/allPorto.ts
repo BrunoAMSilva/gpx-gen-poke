@@ -367,7 +367,7 @@ export const data = {
     {
       gym_id: '8bf6f9514bbd46308c5f39ccd98a6647.16',
       gym_name: 'Fonte do Marquês',
-      longitude: 41.161034,
+      longitude: 41.1607,
       latitude: -8.604646,
       isEx: true
     },
