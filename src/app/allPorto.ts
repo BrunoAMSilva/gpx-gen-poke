@@ -209,8 +209,8 @@ export const data = {
     {
       gym_id: '575230bee3b146b4840df846796dc952.16',
       gym_name: 'Igreja da Lapa',
-      longitude: 41.157053,
-      latitude: -8.612253
+      longitude: 41.157306,
+      latitude: -8.611984
     },
     {
       gym_id: '1a5ba30e0d8c4cc78397e547d03aaf34.16',
