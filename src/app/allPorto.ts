@@ -372,6 +372,13 @@ export const data = {
       isEx: true
     },
     {
+      gym_id: 'GYM_VINDIMAS',
+      gym_name: 'Homenagem Vindimas',
+      longitude: 41.165746,
+      latitude: -8.604538,
+      isEx: true
+    },
+    {
       gym_id: 'c010589806c1478d8003ab2960e4e63a.12',
       gym_name: 'Cara de Pedra',
       longitude: 41.147611,
