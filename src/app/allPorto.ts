@@ -149,8 +149,8 @@ export const data = {
     {
       gym_id: '1cd0de5aa8494378be490374b0744c40.11',
       gym_name: 'Torre dos Clérigos',
-      longitude: 41.145687,
-      latitude: -8.614484
+      longitude: 41.1456,
+      latitude: -8.6151
     },
     {
       gym_id: '59b5386cce9845358c0bbcbae376c003.16',
