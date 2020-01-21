@@ -379,6 +379,13 @@ export const data = {
       isEx: true
     },
     {
+      gym_id: 'GYM_INSP',
+      gym_name: 'Igreja de Nossa Senhora do Prepétuo',
+      longitude: 41.150715,
+      latitude: -8.603549,
+      isEx: false
+    },
+    {
       gym_id: 'c010589806c1478d8003ab2960e4e63a.12',
       gym_name: 'Cara de Pedra',
       longitude: 41.147611,
