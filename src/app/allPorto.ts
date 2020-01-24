@@ -343,8 +343,9 @@ export const data = {
     {
       gym_id: 'eb4169dc43af41e79ab6d3d9618c6fb9.16',
       gym_name: 'Pavilhão Rosa Mota',
-      longitude: 41.147224,
-      latitude: -8.625741
+      longitude: 41.147411,
+      latitude: -8.62614,
+      isEx: true
     },
     {
       gym_id: '53a647e462ce48ceaafb118ccad58ea1.11',
