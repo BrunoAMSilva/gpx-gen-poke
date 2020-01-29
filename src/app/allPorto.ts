@@ -348,6 +348,13 @@ export const data = {
       isEx: true
     },
     {
+      gym_id: 'GYM_ZIMBROSIO.16',
+      gym_name: 'Zimbrósio do Senhor do Padrão',
+      longitude: 41.180911,
+      latitude: -8.69415,
+      isEx: true
+    },
+    {
       gym_id: '53a647e462ce48ceaafb118ccad58ea1.11',
       gym_name: 'Sandeman Port Wine',
       longitude: 41.137636,
