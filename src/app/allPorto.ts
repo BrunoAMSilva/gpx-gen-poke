@@ -349,7 +349,7 @@ export const data = {
     },
     {
       gym_id: 'GYM_ZIMBROSIO.16',
-      gym_name: 'Zimbrósio do Senhor do Padrão',
+      gym_name: 'Zimbrório do Senhor do Padrão',
       longitude: 41.180911,
       latitude: -8.69415,
       isEx: true
