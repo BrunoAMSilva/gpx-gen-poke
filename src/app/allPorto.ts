@@ -1519,8 +1519,8 @@ export const data = {
     {
       gym_id: '7c83495637b94b4cb809b41ecb3173b0.12',
       gym_name: 'Plantoir',
-      longitude: 41.160162,
-      latitude: -8.658932,
+      longitude: 41.160062,
+      latitude: -8.658632,
       isEx: true
     },
     {
