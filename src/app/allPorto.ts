@@ -1524,6 +1524,12 @@ export const data = {
       isEx: true
     },
     {
+      gym_id: '7c83495637b94b4cb809b41ecb3173b0.12',
+      gym_name: 'Igreja de São Martinho da Vilarinha',
+      longitude: 41.1709,
+      latitude: -8.670653
+    },
+    {
       gym_id: '38c08fd16554433698a5e6d3a48fde3f.16',
       gym_name: 'Torre de Água da Amieira',
       longitude: 41.186316,
