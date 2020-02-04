@@ -1068,8 +1068,8 @@ export const data = {
     {
       gym_id: '90cf220d156241f9828ab9617df6bf30.12',
       gym_name: 'O Rugido da Pantera Negra',
-      longitude: 41.162873,
-      latitude: -8.643156
+      longitude: 41.163173,
+      latitude: -8.643296
     },
     {
       gym_id: 'b91e5c39e50d4ad4a3adcf7d7f1f80c4.16',
