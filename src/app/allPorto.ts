@@ -20,6 +20,12 @@ export const data = {
       latitude: -8.633534
     },
     {
+      gym_id: "GYM_ANTIGA_GUARDA",
+      gym_name: "Antiga Guarda",
+      longitude: 41.174002,
+      latitude: -8.68558
+    },
+    {
       gym_id: 'GYM_PORTO_CORETO_SAO_LAZARO',
       gym_name: 'Coreto de São Lázaro',
       longitude: 41.145965,
