@@ -1032,8 +1032,8 @@ export const data = {
     {
       gym_id: 'c0a364ccae2f47c6bc21945b5b67bae9.16',
       gym_name: 'UPTEC',
-      longitude: 41.176359,
-      latitude: -8.604362
+      longitude: 41.176739,
+      latitude: -8.604322
     },
     {
       gym_id: 'a2f7a30529e34402ab2ba5e0d2954874.16',
