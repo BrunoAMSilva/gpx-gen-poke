@@ -1039,7 +1039,15 @@ export const data = {
       gym_id: 'c0a364cc945b5b67bae9.16',
       gym_name: 'Estátua de Afonso Costa',
       longitude: 41.149038,
-      latitude: -8.598842
+      latitude: -8.598842,
+      isEx: true
+    },
+    {
+      gym_id: '.16',
+      gym_name: 'Busto do Padre Baltazar Guedes',
+      longitude: 41.141551,
+      latitude: -8.595290,
+      isEx: true
     },
     {
       gym_id: 'a2f7a30529e34402ab2ba5e0d2954874.16',
