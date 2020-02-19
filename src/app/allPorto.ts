@@ -1036,6 +1036,12 @@ export const data = {
       latitude: -8.604322
     },
     {
+      gym_id: 'c0a364cc945b5b67bae9.16',
+      gym_name: 'Estátua de Afonso Costa',
+      longitude: 41.149038,
+      latitude: -8.598842
+    },
+    {
       gym_id: 'a2f7a30529e34402ab2ba5e0d2954874.16',
       gym_name: 'Quinta Dos Castelos',
       longitude: 41.12577,
