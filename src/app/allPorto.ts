@@ -20,6 +20,12 @@ export const data = {
       latitude: -8.633534
     },
     {
+      gym_id: 'GYM_PORTO_TEATRO_C_ALEGRE',
+      gym_name: 'Teatro do Campo Alegre',
+      longitude: 41.15083,
+      latitude: -8.63900
+    },
+    {
       gym_id: "GYM_ANTIGA_GUARDA",
       gym_name: "Antiga Guarda",
       longitude: 41.174002,
