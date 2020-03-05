@@ -895,7 +895,7 @@ export const data = {
       gym_id: 'd6d542f4f96842f8b40c3a44dc53e3a2.16',
       gym_name: 'APPC: Associação Portuguesa de Paralisia Cerebral',
       longitude: 41.173072,
-      latitude: -8.609117
+      latitude: -8.609417
     },
     {
       gym_id: '0a43649b3da4442093d975ccf1de07fc.16',
