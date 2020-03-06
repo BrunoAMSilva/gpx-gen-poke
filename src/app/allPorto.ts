@@ -791,8 +791,9 @@ export const data = {
     {
       gym_id: '0c185e3b4028451992c33619285e7c31.16',
       gym_name: "Coreto da Arca d'Água",
-      longitude: 41.171378,
-      latitude: -8.611983
+      longitude: 41.171678,
+      latitude: -8.612083,
+      isEx: true
     },
     {
       gym_id: '6b70b3bacc3b41f4a2772aff89421b00.16',
@@ -827,8 +828,8 @@ export const data = {
     {
       gym_id: 'feb52aa8077b475b99f0be49ea287981.11',
       gym_name: 'Estátua "A Família"',
-      longitude: 41.171845,
-      latitude: -8.61192
+      longitude: 41.171678,
+      latitude: -8.612083
     },
     {
       gym_id: '3405435af3424968a23750736a1fc5a1.16',
