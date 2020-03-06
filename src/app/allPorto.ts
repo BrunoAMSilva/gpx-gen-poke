@@ -986,7 +986,8 @@ export const data = {
       gym_id: '6a644fb615834438b2af244a973233d3.16',
       gym_name: 'Liberdade Igualdade Fraternidade',
       longitude: 41.174517,
-      latitude: -8.603624
+      latitude: -8.603624,
+      isEx:true
     },
     {
       gym_id: '0b3da3ff2c36470bbb4b1635f058fd79.16',
