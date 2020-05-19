@@ -20,6 +20,12 @@ export const data = {
       latitude: -8.633534
     },
     {
+      gym_id: 'GYM_PORTO_CORACAO',
+      gym_name: 'Coração de Filigrana',
+      longitude: 41.149768,
+      latitude: -8.620872
+    },
+    {
       gym_id: 'GYM_PORTO_TEATRO_C_ALEGRE',
       gym_name: 'Teatro do Campo Alegre',
       longitude: 41.15083,
