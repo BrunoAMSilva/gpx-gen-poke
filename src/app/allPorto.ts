@@ -20,6 +20,30 @@ export const data = {
       latitude: -8.633534
     },
     {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Antiga Fábrica de Lanifícios de Lordelo',
+      longitude: 41.155252,
+      latitude: -8.650663
+    },
+    {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Yellohood Heart',
+      longitude: 41.180271,
+      latitude: -8.676306
+    },
+    {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Cardume Metálico',
+      longitude: 41.176802,
+      latitude: -8.68808
+    },
+    {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Busto de Afonso Cordeiro',
+      longitude: 41.180859,
+      latitude: -8.681682
+    },
+    {
       gym_id: 'GYM_PORTO_CORACAO',
       gym_name: 'Coração de Filigrana',
       longitude: 41.149768,
