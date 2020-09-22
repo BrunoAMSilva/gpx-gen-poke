@@ -33,6 +33,12 @@ export const data = {
     },
     {
       gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Igreja de Nossa Senhora da Ajuda',
+      longitude: 41.152944,
+      latitude: -8.659872
+    },
+    {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
       gym_name: 'Cardume Metálico',
       longitude: 41.176802,
       latitude: -8.68808
