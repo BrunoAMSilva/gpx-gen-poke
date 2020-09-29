@@ -21,6 +21,12 @@ export const data = {
     },
     {
       gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
+      gym_name: 'Canhões do Jardim do Cálem',
+      longitude: 41.147281,
+      latitude: -8.656548
+    },
+    {
+      gym_id: 'GYM_PORTO_ALMINHAS_FRANCOS',
       gym_name: 'Antiga Fábrica de Lanifícios de Lordelo',
       longitude: 41.155252,
       latitude: -8.650663
