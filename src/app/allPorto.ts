@@ -7,6 +7,12 @@ export const data = {
       latitude: -8.611142
     },
     {
+      gym_id: 'b2654037f3ff4e52b15fc5533b44f954.12',
+      gym_name: 'Campo Basquetebol da Bataria',
+      longitude: 41.205245,
+      latitude: -8.695216
+    },
+    {
       gym_id: 'GYM_PORTO_FONTE_FAUNA_FLORA',
       gym_name: 'Fonte da Fauna e da Flora',
       longitude: 41.145843,
