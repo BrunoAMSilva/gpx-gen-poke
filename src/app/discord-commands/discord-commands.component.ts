@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {POKEMONS} from '../pokemons';
 
 @Component({
   selector: 'app-discord-commands',
