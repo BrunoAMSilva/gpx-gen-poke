@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -10,7 +10,7 @@ import { MatCommonModule, MatButtonModule, MatToolbarModule, MatCheckboxModule, 
 import { DiscordCommandsComponent } from './discord-commands/discord-commands.component'
 
 @NgModule({
-  imports:      [ MatCommonModule, BrowserModule, BrowserAnimationsModule, FormsModule, MatCheckboxModule, MatButtonModule, MatFormFieldModule, MatToolbarModule, MatListModule, MatTabsModule, MatInputModule, MatSelectModule,
+  imports:      [ MatCommonModule, BrowserModule, BrowserAnimationsModule, FormsModule, MatCheckboxModule, ReactiveFormsModule, MatButtonModule, MatFormFieldModule, MatToolbarModule, MatListModule, MatTabsModule, MatInputModule, MatSelectModule,
   AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDmrR8vEUyuaK8PdteGu3XBTNJW26JOUY4'
     }) ],
