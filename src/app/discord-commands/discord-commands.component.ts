@@ -7,6 +7,7 @@ import { POKEMONS } from '../pokemons.json';
   styleUrls: ['./discord-commands.component.scss']
 })
 export class DiscordCommandsComponent implements OnInit {
+  public pokemons = Object.keys(POKEMONS).map((key) => [key, POKEMONS[key]]);
 
   constructor() { }
 

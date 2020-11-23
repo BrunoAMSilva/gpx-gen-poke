@@ -1,1 +1,8 @@
-<mat-select></mat-select>
+<mat-form-field appearance="fill">
+	<mat-label>Pokémon</mat-label>
+	<mat-select>
+		<mat-option *ngFor="let pokemon of pokemons" [value]="pokemon.value.national_id">
+			{{pokemon.key}}
+		</mat-option>
+	</mat-select>
+</mat-form-field>
