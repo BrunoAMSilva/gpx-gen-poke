@@ -7,3 +7,8 @@
 		</mat-option>
 	</mat-autocomplete>
 </mat-form-field>
+
+<mat-form-field>
+	<label>tracked</label>
+	<textarea matInput (click)="setText(in.value)" #in (ngModelChange)="setText($event)"></textarea>
+</mat-form-field>

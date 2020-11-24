@@ -3,6 +3,7 @@ import { POKEMONS } from "../pokemon";
 import { FormControl } from "@angular/forms";
 import { Observable } from "rxjs";
 import { map, startWith } from "rxjs/operators";
+import { mapPokemons } from "../discord-reader";
 
 @Component({
   selector: "app-discord-commands",
@@ -26,6 +27,10 @@ export class DiscordCommandsComponent implements OnInit {
 
   public displayFn(user: any): string {
     return user && user.names ? user.names.en : "";
+  }
+
+  public setText(value: string) {
+    mapPokemons(value, this.pokemons);
   }
 
   private _filter(name: string): any[] {
