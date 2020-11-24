@@ -1,8 +1,9 @@
 <mat-form-field appearance="fill">
 	<mat-label>Pokémon</mat-label>
-	<mat-select>
-		<mat-option *ngFor="let pokemon of pokemons" [value]="pokemon.value.national_id">
-			{{pokemon.key}}
+	<input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto">
+	<mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+		<mat-option *ngFor="let pokemon of pokemons | async" [value]="pokemon">
+			{{pokemon.names.en}}
 		</mat-option>
-	</mat-select>
+	</mat-autocomplete>
 </mat-form-field>
