@@ -3,15 +3,15 @@ export interface Name {
 }
 
 export interface Stats {
-  form: "normal" | "alola" | undefined;
+  form: "normal" | "alola" | "none";
   atk: number;
   maxAtk: number;
   def: number;
   maxDef: number;
   sta: number;
   maxSta: number;
-  level: number | undefined;
-  maxLevel: number | undefined;
+  level: number;
+  maxLevel: number;
 }
 
 export class Pokemon {
@@ -20,4 +20,16 @@ export class Pokemon {
   stats: Stats[];
 }
 
-export function mapPokemons(data: string, pokemons: Pokemon[]) {}
+export function mapPokemons(data: string, pokemons: Pokemon[]) {
+  let lines = data.split("\n");
+
+  lines.forEach(ln => {
+    if (ln.startsWith("**")) {
+      const name = ln.slice(2).split("**")[0];
+      const pokemon = pokemons.find(pk => pk.names.en === name);
+      if (pokemon) {
+        const statsData = ln.split(":");
+      }
+    }
+  });
+}
