@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {POKEMONS} from '../pokemons';
+import { POKEMONS } from '../pokemon';
 
 @Component({
   selector: 'app-discord-commands',
@@ -7,7 +7,7 @@ import {POKEMONS} from '../pokemons';
   styleUrls: ['./discord-commands.component.scss']
 })
 export class DiscordCommandsComponent implements OnInit {
-  public pokemons = Object.keys(POKEMONS).map((key) => [key, POKEMONS[key]]);
+  public pokemons = Object.keys(POKEMONS).map((key) => POKEMONS[key]);
 
   constructor() { }
 
