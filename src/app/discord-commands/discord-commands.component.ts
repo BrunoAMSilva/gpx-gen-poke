@@ -19,7 +19,7 @@ export class DiscordCommandsComponent implements OnInit {
   ngOnInit() {
     this.filteredOptions = this.myControl.valueChanges.pipe(
       startWith(""),
-      map(value => (typeof value === "string" ? value : value.name)),
+      map(value => (typeof value === "string" ? value : value.names.en)),
       map(name => (name ? this._filter(name) : this.pokemons.slice()))
     );
   }
